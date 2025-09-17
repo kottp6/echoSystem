@@ -9,8 +9,25 @@ import Founder from './components/Founder/Founder'
 import Portfolio from './components/Portfolio/Portfolio'
 import Footer from './components/Footer/Footer'
 import ScrollToTopButton from './components/ScrollToTopButton/ScrollToTopButton'
+import SplashScreen from './components/SplashScreen/SplashScreen'
+import { useState, useEffect } from 'react'
+import { AnimatePresence } from "framer-motion";
 function App() {
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2500);
+    return () => clearTimeout(timer);
+  }, []);
 
+  if (loading) {
+    return (
+      <AnimatePresence mode="wait">
+        <SplashScreen key="splash" />
+      </AnimatePresence>
+    );
+  }
   return (
     <>
     <div className='overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900'>
