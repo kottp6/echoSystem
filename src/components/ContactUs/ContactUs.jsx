@@ -13,7 +13,7 @@ export default function ContactUs() {
       icon: <FaWhatsapp className="text-green-500 text-3xl" />,
       title: "واتساب",
       info: "ابدأ محادثة",
-      link: "https://wa.me/01101785597",
+      link: "https://wa.me/201101785597",
     },
     {
       icon: <FaEnvelope className="text-yellow-400 text-3xl" />,
