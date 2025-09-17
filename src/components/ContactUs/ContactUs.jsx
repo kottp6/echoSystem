@@ -91,7 +91,7 @@ export default function ContactUs() {
 
         {/* CTA */}
         <motion.a
-          href="https://wa.me/01101785597"
+          href="https://wa.me/201101785597"
           target="_blank"
           className="inline-block mt-12 bg-yellow-400 text-gray-900 font-semibold px-8 py-4 rounded-2xl shadow-lg hover:bg-yellow-300 transition"
           whileHover={{ scale: 1.05 }}
