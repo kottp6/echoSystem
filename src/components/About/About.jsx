@@ -4,9 +4,9 @@ import { FaLightbulb, FaCheckCircle, FaLeaf } from "react-icons/fa";
 
 
 export default function About() {
-  const images = ["https://res.cloudinary.com/dojghbhxq/image/upload/v1758133535/about1_fhpplt.jpg",
-     "https://res.cloudinary.com/dojghbhxq/image/upload/v1758133581/about2_yb3e7x.jpg",
-      "https://res.cloudinary.com/dojghbhxq/image/upload/v1758133676/about3_tc0h4g.jpg"];
+  const images = ["https://res.cloudinary.com/dojghbhxq/image/upload/v1758146933/about1_fqeqgv.webp",
+     "https://res.cloudinary.com/dojghbhxq/image/upload/v1758146936/about2_uhnjcy.webp",
+      "https://res.cloudinary.com/dojghbhxq/image/upload/v1758146933/about3_c95xsd.webp"];
   const [current, setCurrent] = useState(0);
 
   // تغيير تلقائي كل 4 ثواني
@@ -32,6 +32,7 @@ export default function About() {
             <AnimatePresence mode="wait">
               <motion.img
                 key={current}
+                loading="lazy"
                 src={images[current]}
                 alt="About ECHO"
                 className="absolute inset-0 w-full h-full object-cover"

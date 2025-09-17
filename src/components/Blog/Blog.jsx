@@ -5,17 +5,17 @@ export default function Blog() {
     {
       title: "أهمية الإعلانات الممولة 🚀",
       desc: "تعرف إزاي الإعلانات الممولة ممكن توصلك لجمهورك الصح بأقل تكلفة.",
-      img: "https://res.cloudinary.com/dojghbhxq/image/upload/v1758133333/blog1_ympipj.jpg",
+      img: "https://res.cloudinary.com/dojghbhxq/image/upload/v1758146938/blog1_tipqqm.webp",
     },
     {
       title: "التصميم سر الجاذبية 🎨",
       desc: "إزاي التصميم الإبداعي يخلي البراند بتاعك مميز ويجذب العملاء.",
-      img: "https://res.cloudinary.com/dojghbhxq/image/upload/v1758133266/blog2_kca1hm.jpg",
+      img: "https://res.cloudinary.com/dojghbhxq/image/upload/v1758146950/blog2_f1fico.webp",
     },
     {
       title: "خطة تسويقية ناجحة 📊",
       desc: "تعلم خطوات وضع خطة تسويقية من A لـ Z تخلي شغلك ماشي صح.",
-      img: "https://res.cloudinary.com/dojghbhxq/image/upload/v1758133190/blog3_l9fsox.jpg",
+      img: "https://res.cloudinary.com/dojghbhxq/image/upload/v1758146944/blog3_esojfr.webp",
     },
   ];
 
@@ -61,6 +61,7 @@ export default function Blog() {
               <div className="h-48 w-full overflow-hidden">
                 <img
                   src={blog.img}
+                  loading="lazy"
                   alt={blog.title}
                   className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
                 />

@@ -16,20 +16,12 @@ export default function Navbar() {
           <img className="w-40 sm:w-48" src={logo} alt="ECHO Logo" />
         </Link>
 
-        {/* Desktop Links */}
-        {/* <div className="hidden md:flex items-center gap-6 text-lg font-medium">
-          <Link to="/" className="hover:text-yellow-300 transition">الرئيسية</Link>
-          <Link to="/about" className="hover:text-yellow-300 transition">من نحن</Link>
-          <Link to="/services" className="hover:text-yellow-300 transition">الخدمات</Link>
-          <Link to="/contact" className="hover:text-yellow-300 transition">تواصل</Link>
-        </div> */}
-
         {/* Social Media Icons */}
         <div className="hidden md:flex items-center gap-4 text-2xl">
           <Link to="mailto:echo.company.eg@gmail.com" target="_blank"><SiGmail /></Link>
           <Link to="https://www.facebook.com/share/16uJkByjyA/" target="_blank"><FaFacebook /></Link>
           <Link to="https://www.instagram.com/echo_marketing_agencye?igsh=aTBzaHNiZHpjOTF4" target="_blank"><FaInstagram /></Link>
-          <Link to="https://wa.me/201272057110" target="_blank"><FaWhatsapp /></Link>
+          <Link to="https://wa.me/201101785597" target="_blank"><FaWhatsapp /></Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -43,7 +35,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-indigo-700 px-6 py-4 flex flex-col gap-4 text-lg">
+        <div className="md:hidden bg-gray-900 px-6 py-4 flex flex-col gap-4 text-lg">
           <Link to="/" className="hover:text-yellow-300 transition" onClick={() => setIsOpen(false)}>الرئيسية</Link>
           <Link to="/about" className="hover:text-yellow-300 transition" onClick={() => setIsOpen(false)}>من نحن</Link>
           <Link to="/services" className="hover:text-yellow-300 transition" onClick={() => setIsOpen(false)}>الخدمات</Link>

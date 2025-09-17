@@ -6,19 +6,19 @@ export default function Testimonials() {
       text: "ECHO ساعدتني أوصل لطلاب أكتر بطريقة بسيطة جدًا.",
       name: "أ/ ربيع",
       role: "مدرس ثانوي",
-      img: "https://res.cloudinary.com/dojghbhxq/image/upload/v1758133737/rabie_iemmiq.jpg",
+      img: "https://res.cloudinary.com/dojghbhxq/image/upload/v1758147623/rabie_ikxhtn.webp",
     },
     {
       text: "الحملة اللي عملوها للمكتب جابتلي عملاء جداد في أول أسبوع.",
       name: "م. أحمد",
       role: "محامي",
-      img: "https://res.cloudinary.com/dojghbhxq/image/upload/v1758133738/ahmed_zizidk.jpg",
+      img: "https://res.cloudinary.com/dojghbhxq/image/upload/v1758147624/ahmed_zogfyh.webp",
     },
     {
       text: "التسويق عبر السوشيال ميديا غير حياتي المهنية.",
       name: "أ. علاء",
       role: "مدرس فيزياء   ",
-      img: "https://res.cloudinary.com/dojghbhxq/image/upload/v1758133739/alaa_fzgyfx.png",
+      img: "https://res.cloudinary.com/dojghbhxq/image/upload/v1758146934/alaa_auru9k.webp",
     },
   ];
 
@@ -70,6 +70,7 @@ export default function Testimonials() {
                 <img
                   src={item.img}
                   alt={item.name}
+                  loading="lazy"
                   className="w-14 h-14 rounded-full object-cover border-2 border-yellow-300"
                 />
                 <div>

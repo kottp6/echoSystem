@@ -15,7 +15,8 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.3 }}
         >
           <motion.img
-            src="https://res.cloudinary.com/dojghbhxq/image/upload/v1758133409/hero_kj0nt0.jpg"
+            src="https://res.cloudinary.com/dojghbhxq/image/upload/v1758146933/hero_vyw3lu.webp"
+            loading="lazy"
             alt="Digital Marketing"
             className="w-90 sm:w-96 lg:w-[28rem] drop-shadow-2xl rounded-2xl"
             animate={{

@@ -14,8 +14,9 @@ export default function Founder() {
           viewport={{ once: true }}
         >
           <img
-            src="https://res.cloudinary.com/dojghbhxq/image/upload/v1758133808/founder_j4xy8v.jpg"
+            src="https://res.cloudinary.com/dojghbhxq/image/upload/v1758146932/founder_vtcdjv.webp"
             alt="Founder of ECHO"
+            loading="lazy"
             className="rounded-2xl shadow-xl w-80 sm:w-96 lg:w-[28rem] object-cover"
           />
         </motion.div>
