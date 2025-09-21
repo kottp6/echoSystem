@@ -18,7 +18,7 @@ export default function Testimonials() {
       text: "التسويق عبر السوشيال ميديا غير حياتي المهنية.",
       name: "أ. علاء",
       role: "مدرس فيزياء   ",
-      img: "https://res.cloudinary.com/dojghbhxq/image/upload/v1758146934/alaa_auru9k.webp",
+      img: "https://res.cloudinary.com/dojghbhxq/image/upload/v1758473008/alaa_uxc7rw.webp",
     },
   ];
 

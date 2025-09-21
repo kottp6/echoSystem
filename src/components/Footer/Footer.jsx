@@ -22,7 +22,7 @@ export default function Footer() {
           <Link to="mailto:echo.company.eg@gmail.com" target="_blank"><SiGmail /></Link>
           <Link to="https://www.facebook.com/share/16uJkByjyA/" target="_blank"><FaFacebook /></Link>
           <Link to="https://www.instagram.com/echo_marketing_agencye?igsh=aTBzaHNiZHpjOTF4" target="_blank"><FaInstagram /></Link>
-          <Link to="https://wa.me/201272057110" target="_blank"><FaWhatsapp /></Link>
+          <Link to="https://wa.me/201101785597" target="_blank"><FaWhatsapp /></Link>
         </div>
       </div>
 

@@ -36,15 +36,11 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-gray-900 px-6 py-4 flex flex-col gap-4 text-lg">
-          <Link to="/" className="hover:text-yellow-300 transition" onClick={() => setIsOpen(false)}>الرئيسية</Link>
-          <Link to="/about" className="hover:text-yellow-300 transition" onClick={() => setIsOpen(false)}>من نحن</Link>
-          <Link to="/services" className="hover:text-yellow-300 transition" onClick={() => setIsOpen(false)}>الخدمات</Link>
-          <Link to="/contact" className="hover:text-yellow-300 transition" onClick={() => setIsOpen(false)}>تواصل</Link>
-          <div className="flex gap-4 text-2xl mt-2">
-            <Link to="mailto:yourmail@gmail.com"><SiGmail /></Link>
-            <Link to="https://facebook.com" target="_blank"><FaFacebook /></Link>
-            <Link to="https://instagram.com" target="_blank"><FaInstagram /></Link>
-            <Link to="https://wa.me/201055854777" target="_blank"><FaWhatsapp /></Link>
+          <div className="flex flex-col  gap-4 text-2xl mt-2">
+            <Link to="mailto:echo.company.eg@gmail.com"><SiGmail /></Link>
+            <Link to="https://www.facebook.com/share/16uJkByjyA/" target="_blank"><FaFacebook /></Link>
+            <Link to="https://www.instagram.com/echo_marketing_agencye?igsh=aTBzaHNiZHpjOTF4" target="_blank"><FaInstagram /></Link>
+            <Link to="https://wa.me/201101785597" target="_blank"><FaWhatsapp /></Link>
           </div>
         </div>
       )}

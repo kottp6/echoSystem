@@ -6,8 +6,8 @@ export default function ContactUs() {
     {
       icon: <FaPhoneAlt className="text-pink-500 text-3xl" />,
       title: "موبايل",
-      info: "01272057110",
-      link: "tel:01272057110",
+      info: "01101785597",
+      link: "tel:01101785597",
     },
     {
       icon: <FaWhatsapp className="text-green-500 text-3xl" />,
