@@ -11,13 +11,13 @@ export default function Testimonials() {
     {
       text: "الحملة اللي عملوها للمكتب جابتلي عملاء جداد في أول أسبوع.",
       name: "م. أحمد",
-      role: "محامي",
+      role: "مدرس",
       img: "https://res.cloudinary.com/dojghbhxq/image/upload/v1758147624/ahmed_zogfyh.webp",
     },
     {
-      text: "التسويق عبر السوشيال ميديا غير حياتي المهنية.",
-      name: "أ. علاء",
-      role: "مدرس فيزياء   ",
+      text: "التسويق عبر السوشيال ميديا زود عملاء المؤسسه.",
+      name: "مؤسسه العدل",
+      role: "",
       img: "https://res.cloudinary.com/dojghbhxq/image/upload/v1758473008/alaa_uxc7rw.webp",
     },
   ];
